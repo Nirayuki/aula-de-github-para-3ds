@@ -1,8 +1,8 @@
 /*
   TAREFA (Aluno 2 - Usuarios)
-  - Adicione 2 usuarios novos com name, role e city.
-  - Inclua um campo "email" em todos os usuarios.
-  - Ajuste um usuario existente para role "Suporte".
+  
+  
+ 
   - Padronize city com a primeira letra maiuscula.
 */
 
@@ -13,15 +13,30 @@ window.AppData.users = [
     name: "Ana Souza",
     role: "Financeiro",
     city: "Recife",
+    email: "anasouza@gmail.com",
   },
   {
     name: "Bruno Lima",
-    role: "Vendas",
+    role: "Suporte",
     city: "Curitiba",
+    email:"brunolima@gmail.com",
   },
   {
     name: "Carla Ramos",
     role: "Operacoes",
     city: "Salvador",
+    email:"carlaramos@gmail.com",
+  },
+  {
+  name: "Pedro Correa",
+  role: "Desenvolvedor",
+  city: "Fortaleza",
+  email: "pedrocorrea@gmail.com",
+  },
+  {
+  name: "Enzo Rabelo",
+  role: "Bartender",
+  city: "Barra Funda",
+  email: "enzorabelo@gmail.com",  
   },
 ];
